@@ -1,0 +1,151 @@
+body {
+    font-family: 'playfair display', serif;
+    max-width: 700px;
+    margin: 0 auto;
+    background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.P {
+    color: black;
+}
+
+.cabeza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    color: skyblue;
+    border-bottom: 2px solid black;
+}
+
+.cabeza h1 {
+    background-color: transparent;
+    color: skyblue;
+    margin: 0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.lenguajes h2 {
+    text-decoration: underline;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta {
+    flex: 1;
+    border: 2px solid white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;display: block;
+}
+
+.tarjetas-analogia {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-html {border-color: red;background-color: #fff0f0;}
+.tarjeta-css {border-color: blue;background-color: #f0f0ff;}
+.tarjeta-js {border-color:  orange;background-color: #fff8f0;}
+
+.analogia h2 {
+    text-decoration: underline;
+}
+
+.tarjeta-html h4 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px 10px -10px;
+}
+
+.tarjeta-css h4 {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px 10px -10px;
+}
+
+.tarjeta-js h4 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px 10px -10px;
+}
+
+.html2 {border: 2px solid red; padding: 10px; flex: 1; background-color: #fff0f0;}
+.css2 {border: 2px solid blue; padding: 10px; flex: 1;background-color: #f0f0ff;}
+.js2 {border: 2px solid orange; padding: 10px; flex: 1;background-color: #fff8f0;}
+
+.html2 h4 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px 10px -10px;
+}
+
+.css2 h4 {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px 10px -10px;
+}
+
+.js2 h4 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px 10px -10px;
+}
+
+.casa2 {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.casa2 img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+
+.resumen {
+    border-left: 4px solid #999;
+    padding-left: 15px;
+    font-style: italic;
+    border-top: 2px solid black;
+    padding-top: 15px;
+}
+
+.resumen h3 {
+    text-decoration: underline;
+}
